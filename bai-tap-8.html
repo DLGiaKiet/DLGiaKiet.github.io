@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        /* Định dạng cho bảng sản phẩm */
+        .product-table {
+            width: 100%;
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        .product-table table{
+            border-spacing: 0px;
+        }
+
+        .product-table th, .product-table td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .product-table th {
+            background-color: lightcyan;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .product-table td img {
+            width: 200px;
+            height: auto;
+        }
+
+        .entertainment-table {
+            width: 60%;
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin: 0 auto;
+        }
+
+        .entertainment-table th, .entertainment-table td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .entertainment-table th {
+            font-size: 24px;
+            color: blue;
+        }
+    </style>
+  </head>
+  <body>
+    <table class="product-table">
+      <tr>
+        <th colspan="2">Bang gia san pham</th>
+      </tr>
+      <tr>
+        <td>
+          <table>
+            <tr>
+              <td><strong>Noi san xuat</strong></td>
+              <td>VietNam</td>
+            </tr>
+            <tr>
+              <td><strong>Gia tien</strong></td>
+              <td>300.000d</td>
+            </tr>
+            <tr>
+              <td><strong>Thoi gian bao hanh</strong></td>
+              <td>6 thang</td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <img
+            src="https://product.hstatic.net/1000230642/product/bsm000600trg__2__297f6baef8e34e03bd3338bc422916af_grande.jpg"
+          />
+        </td>
+      </tr>
+    </table>
+    <table class="entertainment-table">
+        <tr>
+            <th colspan="2">Mạng nghệ thuật & giải trí</th>
+        </tr>
+        <tr>
+            <th>Phim</th>
+            <th>Ngày chiếu</th>
+        </tr>
+        <tr>
+            <td>Sherlock Holmes</td>
+            <td>Thứ hai</td>
+        </tr>
+        <tr>
+            <td>Lovejoy</td>
+            <td>Thứ hai</td>
+        </tr>
+    </table>
+  </body>
+</html>
